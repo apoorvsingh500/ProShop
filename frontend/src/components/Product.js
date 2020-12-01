@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap'
 import Rating from './Rating'
-import PropTypes from 'prop-types'
 const Product = ({ product }) => {
     return (
         <Card className = 'my-3 p-3 rounded'>
@@ -22,10 +21,5 @@ const Product = ({ product }) => {
             </Card.Body>
         </Card>
     )
-}
-Rating.propTypes = {
-    value: PropTypes.number.isRequired,
-    text: PropTypes.string.isRequired,
-    color: PropTypes.string,
 }
 export default Product
