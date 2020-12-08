@@ -13,7 +13,6 @@ const App = () => {
       <Container>
         <Route path='/' component={HomeScreen} exact />
         <Route path='/product/:id' component={ProductScreen} />
-    <h1>Welcome To ProShop</h1>
       </Container>
     </main>
     <Footer />
