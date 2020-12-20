@@ -6,7 +6,9 @@ import {
     productDetailsReducer,
     productDeleteReducer,
     productCreateReducer,
-    productUpdateReducer
+    productUpdateReducer,
+    productReviewCreateReducer,
+    productTopRatedReducer
 } from './reducers/productReducer'
 import { cartReducer  
         } from './reducers/cartReducers'
@@ -34,6 +36,8 @@ import {
      productDelete: productDeleteReducer,
      productCreate: productCreateReducer,
      productUpdate: productUpdateReducer,
+     productReviewCreate: productReviewCreateReducer,
+     productTopRated: productTopRatedReducer,
      cart: cartReducer,
      userLogin: userLoginReducer,
      userRegister: userRegisterReducer,
